@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*Get rid of default browser setttings*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	margin-top: 50px;
+}
+
+@keyframes gain {
+    from {background-color: rgb(0,128,0);}
+    to {background-color: inherit;}
+}
+
+@keyframes loss {
+    from {background-color: rgb(128,0,0);}
+    to {background-color: inherit;}
+}
+
+.gain{
+
+  z-index: 1;
+
+  animation-name: gain;
+  animation-duration: 2s;
+}
+.loss{
+	
+  z-index: 1;
+
+  animation-name: loss;
+  animation-duration: 2s;
+}

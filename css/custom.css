@@ -1,0 +1,4 @@
+.panel-header > div[class^="cointlist"] > h2
+{
+	font-size: 2em;
+}
